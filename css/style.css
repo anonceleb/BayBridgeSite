@@ -132,10 +132,11 @@ img { max-width: 100%; display: block; }
 .services-grid { grid-template-columns: 1fr; }
 @media (min-width: 640px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 980px) { .services-grid { grid-template-columns: repeat(3, 1fr); } }
-.service-card { padding: 1.5rem; }
+.service-card { padding: 1.5rem; text-align: center; display: flex; flex-direction: column; align-items: center; }
 .service-card h3 { margin-bottom: 0.5rem; }
 .service-card p { color: rgba(29,31,32,0.75); font-size: 0.9rem; margin-bottom: 0; }
 .service-card .tag { margin-top: 0.75rem; }
+.service-card .tag-accent { margin-bottom: 0.5rem; }
 
 .fact-grid { grid-template-columns: 1fr; margin-top: 1.5rem; }
 @media (min-width: 700px) { .fact-grid { grid-template-columns: repeat(2, 1fr); } }
