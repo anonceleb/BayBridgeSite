@@ -23,7 +23,7 @@ Then visit `http://localhost:8000`.
 ```
 index.html          Home
 services.html        Services (with anchor IDs per service)
-about.html            About / registration details
+about.html            About / how we work / the model
 contact.html          Contact form
 css/style.css         All styling (palette + type from BUILD-BRIEF.md)
 js/main.js             Mobile nav toggle
