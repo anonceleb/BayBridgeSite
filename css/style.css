@@ -81,17 +81,9 @@ img { max-width: 100%; display: block; }
 
 .lede { font-size: 1.1rem; color: rgba(29,31,32,0.78); max-width: 62ch; }
 
-/* — blueprint frame: every card/figure is a hairline-bordered line drawing
-   with "+" registration marks at the corners (Industry's own grammar) — */
+/* — blueprint frame: every card/figure is a hairline-bordered line drawing — */
 .blueprint { position: relative; border: 1px solid var(--color-divider); }
-.blueprint > .corner { position: absolute; width: 11px; height: 11px; color: rgba(29,31,32,0.55); }
-.blueprint > .corner::before, .blueprint > .corner::after { content: ""; position: absolute; background: currentColor; }
-.blueprint > .corner::before { left: 5px; top: 0; width: 1px; height: 100%; }
-.blueprint > .corner::after { top: 5px; left: 0; width: 100%; height: 1px; }
-.blueprint > .corner.tl { top: -6px; left: -6px; }
-.blueprint > .corner.tr { top: -6px; right: -6px; }
-.blueprint > .corner.bl { bottom: -6px; left: -6px; }
-.blueprint > .corner.br { bottom: -6px; right: -6px; }
+.blueprint > .corner { display: none; }
 
 /* — header / nav — */
 .site-header { border-bottom: 1px solid var(--color-divider); background: var(--color-bg); position: sticky; top: 0; z-index: 50; }
