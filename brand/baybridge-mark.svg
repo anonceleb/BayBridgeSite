@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Baybridge Logistics mark">
+  <title>Baybridge Logistics</title>
+  <rect width="120" height="120" rx="18" fill="#10365A"/>
+  <g transform="translate(18,26)">
+    <rect x="0" y="40" width="84" height="6" rx="1" fill="#FFFFFF"/>
+    <path d="M4 40 C 20 6, 64 6, 80 40" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <rect x="20" y="19" width="3.5" height="21" fill="#FFFFFF"/>
+    <rect x="40.25" y="12" width="3.5" height="28" fill="#FFFFFF"/>
+    <rect x="60.5" y="19" width="3.5" height="21" fill="#FFFFFF"/>
+    <path d="M2 58 q 10 -7 20 0 t 20 0 t 20 0 t 20 0" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <path d="M2 70 q 10 -7 20 0 t 20 0 t 20 0 t 20 0" fill="none" stroke="#E0A945" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

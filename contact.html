@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Baybridge Logistics</title>
+<meta name="description" content="Contact Baybridge Logistics, a freight forwarding and customs clearance liaison agent, for import, export, or customs coordination enquiries.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — Baybridge Logistics">
+<meta property="og:description" content="Get in touch for import, export, or customs coordination enquiries.">
+<meta property="og:image" content="brand/baybridge-mark.svg">
+
+<link rel="icon" type="image/svg+xml" href="brand/baybridge-mark.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Primary">
+    <a class="nav__logo" href="index.html" aria-label="Baybridge Logistics home">
+      <img src="brand/baybridge-logo-horizontal.svg" alt="Baybridge Logistics">
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+      Menu
+    </button>
+    <ul class="nav__links" id="primary-nav">
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1 class="hero__tag">Tell us about the shipment.</h1>
+      <p class="lede">Send the details below and you'll get a direct response.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="display:grid; gap:3rem; grid-template-columns:1fr;">
+
+      <div>
+        <h2>Direct contact</h2>
+        <dl class="contact-info">
+          <div>
+            <dt>Email</dt>
+            <dd class="fill-in">[FILL IN — business email]</dd>
+          </div>
+          <div>
+            <dt>Phone</dt>
+            <dd class="fill-in">[FILL IN — business phone]</dd>
+          </div>
+          <div>
+            <dt>Office</dt>
+            <dd class="fill-in">[FILL IN — office address]</dd>
+          </div>
+          <div>
+            <dt>GSTIN</dt>
+            <dd>33APMPK1708A1ZG</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div>
+        <h2>Send an enquiry</h2>
+
+        <!--
+          FORM SETUP (no backend — static form submission service)
+
+          This form posts to Formspree. To wire it up:
+          1. Create a free account at https://formspree.io
+          2. Create a new form and copy its endpoint, e.g.
+             https://formspree.io/f/xxxxabcd
+          3. Replace YOUR_FORM_ID below in the form action attribute
+             with the ID from your Formspree endpoint.
+          4. Formspree will email new submissions to the address used
+             to create the account; verify that address if prompted.
+
+          Alternative: if deploying to Netlify, you can instead add
+          `data-netlify="true"` to the <form> tag and a hidden input
+          name="form-name" value="contact", then remove the Formspree
+          action — Netlify Forms will handle submissions natively.
+        -->
+        <form class="form-grid" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row-2">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company">
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+
+          <div>
+            <label for="enquiry-type">Enquiry type</label>
+            <select id="enquiry-type" name="enquiry_type" required>
+              <option value="">Select one</option>
+              <option value="import">Import</option>
+              <option value="export">Export</option>
+              <option value="customs">Customs</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us what you're shipping, from where, to where, and by when."></textarea>
+          </div>
+
+          <p class="form-note">By submitting, you agree to be contacted about your enquiry. We do not share your details with third parties beyond the carriers or brokers needed to fulfil the request.</p>
+
+          <button type="submit" class="btn btn--primary">Send enquiry</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="nav__logo" href="index.html" aria-label="Baybridge Logistics home">
+        <img src="brand/baybridge-logo-horizontal-reversed.svg" alt="Baybridge Logistics">
+      </a>
+      <p>Freight coordination and customs clearance liaison.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="services.html#ocean-freight">Ocean freight coordination</a></li>
+        <li><a href="services.html#air-freight">Air freight coordination</a></li>
+        <li><a href="services.html#customs-liaison">Customs clearance liaison</a></li>
+        <li><a href="services.html#documentation">Import &amp; export documentation</a></li>
+        <li><a href="services.html#fta-compliance">Origin &amp; FTA compliance support</a></li>
+        <li><a href="services.html#project-cargo">Project &amp; oversize cargo</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 Baybridge Logistics. GST registered.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

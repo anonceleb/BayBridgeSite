@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" width="300" height="220" role="img" aria-label="Baybridge Logistics">
+  <title>Baybridge Logistics</title>
+
+  <g transform="translate(108,16) scale(1.0)">
+    <rect x="0" y="40" width="84" height="6" rx="1" fill="#10365A"/>
+    <path d="M4 40 C 20 6, 64 6, 80 40" fill="none" stroke="#10365A" stroke-width="6" stroke-linecap="round"/>
+    <rect x="20" y="19" width="3.5" height="21" fill="#10365A"/>
+    <rect x="40.25" y="12" width="3.5" height="28" fill="#10365A"/>
+    <rect x="60.5" y="19" width="3.5" height="21" fill="#10365A"/>
+    <path d="M2 58 q 10 -7 20 0 t 20 0 t 20 0 t 20 0" fill="none" stroke="#10365A" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+    <path d="M2 70 q 10 -7 20 0 t 20 0 t 20 0 t 20 0" fill="none" stroke="#C8862B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="150" y="160" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="46" font-weight="700"
+        fill="#10365A">Baybridge</text>
+  <text x="150" y="188" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="17" font-weight="600" letter-spacing="6.5"
+        fill="#5A6B7D">LOGISTICS</text>
+</svg>
