@@ -152,7 +152,6 @@ img { max-width: 100%; display: block; }
 .faq-item summary::after { content: "+"; color: var(--color-accent); font-size: 1.4rem; flex-shrink: 0; font-family: var(--font-body); }
 .faq-item[open] summary::after { content: "\2212"; }
 .faq-item p { color: rgba(29,31,32,0.75); padding-bottom: 1.1rem; margin: 0; }
-.fill-in { color: var(--color-accent-700); font-style: italic; font-weight: 600; }
 
 /* — CTA strip — */
 .cta-strip { background: var(--color-accent-900); color: var(--color-neutral-100); padding: 4rem 0; text-align: center; }
@@ -160,9 +159,9 @@ img { max-width: 100%; display: block; }
 .cta-strip p { color: var(--color-neutral-400); max-width: 55ch; margin: 0 auto 1.5rem; }
 
 /* — forms — */
-.contact-grid { display: grid; gap: 3rem; grid-template-columns: 1fr; }
-@media (min-width: 900px) { .contact-grid { grid-template-columns: 0.8fr 1.2fr; align-items: start; } }
-.form-grid { display: grid; gap: 1.1rem; max-width: 560px; }
+.contact-single { display: flex; justify-content: center; }
+.contact-email-line { margin: 0.5rem 0 1.5rem; color: rgba(29,31,32,0.75); }
+.form-grid { display: grid; gap: 1.1rem; max-width: 560px; width: 100%; }
 .form-row-2 { display: grid; grid-template-columns: 1fr; gap: 1.1rem; }
 @media (min-width: 560px) { .form-row-2 { grid-template-columns: 1fr 1fr; } }
 label { display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem; }
@@ -170,10 +169,6 @@ input, select, textarea { width: 100%; padding: 0.65rem 0.75rem; border: 1px sol
 input:focus-visible, select:focus-visible, textarea:focus-visible { border-color: var(--color-accent); }
 textarea { resize: vertical; min-height: 120px; }
 .form-note { font-size: 0.85rem; color: rgba(29,31,32,0.65); }
-
-.contact-info { list-style: none; margin: 0 0 1.5rem; padding: 0; display: grid; gap: 1.25rem; }
-.contact-info dt { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-neutral-600); margin-bottom: 0.2rem; }
-.contact-info dd { margin: 0; font-weight: 600; }
 
 /* — footer — */
 .site-footer { background: var(--color-accent-900); color: var(--color-neutral-300); padding: 3.5rem 0 1.5rem; }
