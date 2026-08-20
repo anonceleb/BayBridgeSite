@@ -111,6 +111,13 @@ img { max-width: 100%; display: block; }
 .hero__tag { max-width: 18ch; }
 .hero__actions { margin-top: 1.75rem; display: flex; gap: 1rem; flex-wrap: wrap; }
 
+/* — photography — */
+.photo-frame { margin: 0; border-width: 0 0 1px; overflow: hidden; }
+.photo-frame img { width: 100%; height: 340px; object-fit: cover; }
+@media (min-width: 760px) { .photo-frame img { height: 440px; } }
+.service-card__photo { margin: -1.5rem -1.5rem 1.25rem; overflow: hidden; }
+.service-card__photo img { width: 100%; height: 160px; object-fit: cover; display: block; }
+
 /* — positioning block — */
 .positioning { display: grid; grid-template-columns: 1fr; gap: 2rem; }
 @media (min-width: 800px) { .positioning { grid-template-columns: 0.9fr 1.1fr; align-items: start; } }
